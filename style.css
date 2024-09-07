@@ -1,0 +1,21 @@
+#mainPage{
+    background-color: lightcyan;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 5px 0px 5px 2px black;
+    width: 400px;
+    margin-left: 26%;
+}
+
+#signUp{
+    background-color: bisque;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    font-weight: 600;
+}
+#logIn{
+    background-color: bisque;
+    width: 100px;
+    height: 40px;
+}
