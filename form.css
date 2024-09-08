@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: lightcyan;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 0px 5px 2px black;
+    width: 800px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+#studentForm {
+    width: 100%;
+    max-width: 750px;
+    margin: 40px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 48%; 
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.message {
+    margin-top: 20px;
+    text-align: center;
+    color: #f30d05;
+}
+
+input#imageUpload{
+    width: 30%;
+}
