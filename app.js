@@ -17,7 +17,7 @@ document.getElementById('signup-form').addEventListener('submit', function(event
     localStorage.setItem('users', JSON.stringify(users));
 
     // Redirect to users list page
-    window.location.href = 'users.html';
+    window.location.href = 'login.html';
 });
 
 // Redirect to login page
@@ -100,7 +100,7 @@ document.getElementById('details-form').addEventListener('submit', function(even
 
 
 // Retrieve users from localStorage
-const users = JSON.parse(localStorage.getItem('users')) || [];
+const user = JSON.parse(localStorage.getItem('users')) || [];
 
 // Function to display users' details
 function displayDetails(filteredUsers) {
